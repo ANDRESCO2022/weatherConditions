@@ -36,9 +36,7 @@
  padding:0;
 
 }
-.card-city>i{
-  color:blue;
-}
+
 h3{
   margin-top:0;
 }
@@ -68,6 +66,7 @@ ul {
 ul li {
  
   list-style: none;
+  padding:2px;
 
 }
 
@@ -83,7 +82,7 @@ button {
   cursor: pointer;
   text-align: center;
   justify-content: center;
-  opacity:40%;
+
   color:rgb(238, 107, 19);
 }
 .lds-roller {

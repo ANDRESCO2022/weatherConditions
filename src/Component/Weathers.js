@@ -39,8 +39,7 @@ const Weathers = () => {
     setTemp(value);
   };
   const CardStyle = {
-    backgroundImage: " url('https://picsum.photos/id/1019/400/350')",
-   
+    backgroundImage: " url('https://picsum.photos/id/1002/362/388')",
   };
   
 
@@ -63,14 +62,13 @@ const Weathers = () => {
           <li>"{weather.weather?.[0].description}"</li>
           <br />
           <li>
-            <i className="fa-solid fa-wind"></i> Speed: {weather.wind?.speed}m/s
+            <i className="fa-solid fa-wind"></i> Speed wind: {weather.wind?.speed}m/s
           </li>
           <li>
-            <i className="fa-solid fa-cloud"></i> Clouds:{weather.clouds?.all}%
+            <i className="fa-solid fa-cloud"></i> Cloudinnes: {weather.clouds?.all}%
           </li>
           <li>
-            <i className="far fa-humidity"></i> Humidity:
-            {weather.main?.humidity}%
+            <i className="far fa-humidity"></i> Humidity: {weather.main?.humidity}%
           </li>
         </ul>
       </div>
